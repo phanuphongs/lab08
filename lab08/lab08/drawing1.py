@@ -24,4 +24,13 @@ class Simple_drawing_window1(Simple_drawing_window):
         p.drawImage(QRect(200, 100, 320, 320), self.rabbit)
         p.end()
 
-    
+
+def main():
+    app = QApplication(sys.argo)
+    w = Simple_drawing_window1()
+    w.show()
+
+    return app.exec_()
+
+if __name__ == "__main__":
+    sys.exit(main())
