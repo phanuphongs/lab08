@@ -1,5 +1,5 @@
 import sys
-from PySide.Qtcore import *
+from PySide.QtCore import *
 from PySide.QtGui import *
 
 class Simple_drawing_window(QWidget):
@@ -25,5 +25,5 @@ class Simple_drawing_window(QWidget):
                        QPoint(50, 200), QPoint(150, 200), QPoint(100, 400),
                        ])
 
-        
+
         p.end()
